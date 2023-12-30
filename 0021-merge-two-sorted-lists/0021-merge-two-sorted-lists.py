@@ -17,10 +17,7 @@ class Solution:
 
             temp = temp.next
 
-        if l1:
-            temp.next = l1
-        else :
-            temp.next = l2
+        temp.next = l1 if l1 else l2
 
         return merged.next
         
