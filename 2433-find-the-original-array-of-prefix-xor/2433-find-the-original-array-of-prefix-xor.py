@@ -1,3 +1,4 @@
+# Inverse of xor function is xor itself
 class Solution:
     def findArray(self, pref: List[int]) -> List[int]:
         arr = []
