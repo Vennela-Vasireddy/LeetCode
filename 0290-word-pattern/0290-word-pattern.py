@@ -10,8 +10,8 @@ class Solution:
                     return False
             
             word_dict[pattern[x]] = word_list[x]
-            if(len(list(set(list(word_dict.keys())))) != len(list(set(list(word_dict.values()))))):
-                return False
+        if(len(list(set(list(word_dict.keys())))) != len(list(set(list(word_dict.values()))))):
+            return False
             
         return True
                 
