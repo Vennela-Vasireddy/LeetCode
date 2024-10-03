@@ -13,10 +13,7 @@ class Solution:
             reverse_number = reverse_number*10 + int(x%10)
             x = int(x/10)
         reverse_number = reverse_number*(-1) if sign else reverse_number
-        if( reverse_number > 2**31 -1 or reverse_number < -2**31  ):
-            return 0
-        else:
-            return reverse_number
+        return 0 if( reverse_number > 2**31 -1 or reverse_number < -2**31  ) else reverse_number
     
             
         
