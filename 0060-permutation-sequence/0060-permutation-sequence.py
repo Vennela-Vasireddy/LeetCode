@@ -12,6 +12,4 @@ class Solution:
                 result = x
                 break
         return ''.join(map(str, result))
-                
-            
         
